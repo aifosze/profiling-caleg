@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Caleg</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Daftar Caleg</h1>
+        <div>
+            <label for="sort">Sort by Jumlah Suara:</label>
+            <select id="sort">
+                <option value="desc">Terbesar ke Terkecil</option>
+                <option value="asc">Terkecil ke Terbesar</option>
+            </select>
+            <label for="filter-dapil">Filter by Dapil:</label>
+            <input type="text" id="filter-dapil" placeholder="Masukkan Dapil">
+        </div>
+        <ul id="caleg-list"></ul>
+        <div id="caleg-detail" style="display: none;">
+            <h2>Detail Caleg</h2>
+            <img id="caleg-photo" src="" alt="Foto Caleg">
+            <p><strong>Nama:</strong> <span id="caleg-nama"></span></p>
+            <p><strong>Dapil:</strong> <span id="caleg-dapil"></span></p>
+            <p><strong>Partai:</strong> <span id="caleg-partai"></span></p>
+            <p><strong>Jumlah Suara:</strong> <span id="caleg-suara"></span></p>
+            <p><strong>Basis Suara:</strong> <span id="caleg-basis"></span></p>
+            <p><strong>Kekuatan di Basis:</strong> <span id="caleg-kekuatan"></span></p>
+            <p><strong>Status di Partai:</strong> <span id="caleg-status"></span></p>
+            <p><strong>Profil:</strong> <span id="caleg-profil"></span></p>
+            <p><strong>PIC:</strong> <span id="caleg-pic"></span></p>
+            <button id="back-button">Kembali ke Daftar</button>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

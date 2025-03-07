@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+#caleg-detail {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.status-merah {
+    background-color: #ffcccc; /* Warna merah muda */
+    color: #cc0000; /* Warna teks merah */
+}
+
+.status-kuning {
+    background-color: #ffffcc; /* Warna kuning muda */
+    color: #996600; /* Warna teks kuning */
+}
+
+.status-hijau {
+    background-color: #ccffcc; /* Warna hijau muda */
+    color: #006600; /* Warna teks hijau */
+}
+
+.status-oren {
+    background-color: #ffcc99; /* Warna oranye muda */
+    color: #cc6600; /* Warna teks oranye */
+}
+
+.status-merah-bg {
+    background-color: #ffcccc; /* Warna merah muda */
+}
+
+.status-kuning-bg {
+    background-color: #ffffcc; /* Warna kuning muda */
+}
+
+.status-hijau-bg {
+    background-color: #ccffcc; /* Warna hijau muda */
+}
+
+.status-oren-bg {
+    background-color: #ffcc99; /* Warna oranye muda */
+}
